@@ -648,9 +648,16 @@ const renderDashboard = (data) => {
     const share = data.market_share || 0;
     const offset = circumference - (share / 1) * circumference;
 
-    const headerLogoHtml = data.has_logo
-        ? `<img src="img/${data.ruc}.png" alt="${data.company} Logo" class="company-logo">`
-        : `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#27527f]" viewBox="0 0 24 24" fill="currentColor"><path d="M4 21h16v-2H4v2zm0-3h3V5H4v13zm4 0h3V5H8v13zm4 0h3V5h-3v13zm4 0h3V5h-3v13zM3 3h18v1H3V3z" /></svg>`;
+    const headerLogoHtml = `
+    <div class="logo-container">
+        <img src="img/${data.ruc}.png" alt="${data.company} Logo" class="company-logo" 
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#27527f] default-logo" 
+             viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+            <path d="M4 21h16v-2H4v2zm0-3h3V5H4v13zm4 0h3V5H8v13zm4 0h3V5h-3v13zm4 0h3V5h-3v13zM3 3h18v1H3V3z" />
+        </svg>
+    </div>
+`;
 
     const dashboardContainer = document.getElementById('dashboard-container');
     if (!dashboardContainer) return;
