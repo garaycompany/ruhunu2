@@ -4,7 +4,7 @@ const companiesData = [
   {
     "company": "Consorcio Agroindustria Alto Frut S.A.C",
     "ruc": "RUC20512922865",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "Chorrillos",
     "country": "Peru",
@@ -39,7 +39,7 @@ const companiesData = [
   {
     "company": "Premium Brands S.A.C",
     "ruc": "RUC20515112554",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "Lurin",
     "country": "Peru",
@@ -74,7 +74,7 @@ const companiesData = [
   {
     "company": "Panuts Vinos Memorables S.A.C",
     "ruc": "RUC20263512945",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "Miraflores",
     "country": "Peru",
@@ -144,7 +144,7 @@ const companiesData = [
   {
     "company": "Corporacion H.A. Islcaya EIRL",
     "ruc": "RUC20538653218",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "La Victoria",
     "country": "Peru",
@@ -179,7 +179,7 @@ const companiesData = [
   {
     "company": "Frutos Huanchi Export S.A.C",
     "ruc": "RUC20611346213",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "La Victoria",
     "country": "Peru",
@@ -214,7 +214,7 @@ const companiesData = [
   {
     "company": "Consorcio Glm S.A.C",
     "ruc": "RUC20517160432",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "Lurin",
     "country": "Peru",
@@ -249,7 +249,7 @@ const companiesData = [
   {
     "company": "Corporacion Aromas Sur E.I.R.L",
     "ruc": "RUC20555801891",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "La Victoria",
     "country": "Peru",
@@ -284,7 +284,7 @@ const companiesData = [
   {
     "company": "Industria H.E. S.A.C",
     "ruc": "RUC20507294350",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "Ate",
     "country": "Peru",
@@ -319,7 +319,7 @@ const companiesData = [
   {
     "company": "Frutos & Aromaticos Del Peru S.A.C.",
     "ruc": "RUC20550035210",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "La Victoria",
     "country": "Peru",
@@ -354,7 +354,7 @@ const companiesData = [
   {
     "company": "Grupo Savea S.A.C",
     "ruc": "RUC20525407714",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Piura",
     "district": "Piura",
     "country": "Peru",
@@ -389,7 +389,7 @@ const companiesData = [
   {
     "company": "Emco Granos, S.C.R.L",
     "ruc": "RUC20603063831",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Puno",
     "district": "Desaguadero",
     "country": "Peru",
@@ -424,7 +424,7 @@ const companiesData = [
   {
     "company": "Inversiones Gronay SAC",
     "ruc": "RUC20605597981",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "La Victoria",
     "country": "Peru",
@@ -459,7 +459,7 @@ const companiesData = [
   {
     "company": "Ich Corp S.A",
     "ruc": "RUC20132515680",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "Villa El Salvador",
     "country": "Peru",
@@ -494,7 +494,7 @@ const companiesData = [
   {
     "company": "Importaciones Grafruts Y Sara EIRL",
     "ruc": "RUC20607936821",
-    "has_logo": false,
+    "has_logo": true,
     "city": null,
     "district": null,
     "country": "Peru",
@@ -529,7 +529,7 @@ const companiesData = [
   {
     "company": "Consorcio Valle La Frut S.A.C",
     "ruc": "RUC20508817500",
-    "has_logo": false,
+    "has_logo": true,
     "city": "Lima",
     "district": "La Victoria",
     "country": "Peru",
