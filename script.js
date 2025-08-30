@@ -143,10 +143,10 @@ const getStatusColors = (status) => {
 const createInfoItem = (icon, label, value, isLink = false) => {
     if (!value) return '';
     
-    const displayValue = value.replace(/^p:\+?|^m:\+?/, '');
+    const displayValue = String(value).replace(/^p:\+?|^m:\+?/, '');
     let href = '#';
     if (isLink) {
-        if (value.startsWith('http')) {
+        if (String(value).startsWith('http')) {
             href = value;
         } else if (label.toLowerCase().includes('email')) {
             href = `mailto:${value}`;
@@ -331,8 +331,8 @@ const initializeApp = () => {
     });
 
     // Add event listener to update dashboard on change
-    selectEl.addEventListener('change', (event) => {
-        const selectedRuc = event.target.value;
+    selectEl.addEventListener('change', function() {
+        const selectedRuc = this.value;
         const selectedCompany = companiesData.find(c => c.ruc === selectedRuc);
         if (selectedCompany) {
             renderDashboard(selectedCompany);
